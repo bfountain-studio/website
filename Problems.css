@@ -61,7 +61,28 @@ p { font-size: 1.6rem; }
 
 body { font-family: helvetica; sans-serif; }
 
+/* unvisited link */
+header:link {
+    color: black;
+}
+
+/* visited link */
+header:visited {
+    color: black;
+}
+
+/* mouse over link */
+header:hover {
+    color: white;
+}
+
+/* selected link */
+header:active {
+    color: blue;
+}
+
 /* header */
+
 header {
   font-family: helvetica;
   font-weight: bold;
@@ -84,7 +105,7 @@ h1 {
   margin-top: 10%;
 }
 .intro {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .boxes {
   
