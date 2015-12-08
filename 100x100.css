@@ -59,11 +59,31 @@ h1 { font-size: 3.6rem; }
 h2 { font-size: 2.4rem; }
 p { font-size: 1.6rem; }
 
-body { font-family: helvetica; sans-serif; }
+body { font-family: 'Roboto'; sans-serif; }
+
+/* unvisited link */
+header:link {
+    color: black;
+}
+
+/* visited link */
+header:visited {
+    color: black;
+}
+
+/* mouse over link */
+header:hover {
+    color: white;
+}
+
+/* selected link */
+header:active {
+    color: blue;
+}
 
 /* header */
 header {
-  font-family: helvetica;
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 24px;
   margin-left: 2%;
