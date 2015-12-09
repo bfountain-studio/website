@@ -62,27 +62,26 @@ p { font-size: 1.6rem; }
 body { font-family: 'Roboto'; sans-serif; }
 
 /* unvisited link */
-header:link {
+a:link {
     color: black;
 }
 
 /* visited link */
-header:visited {
+a:visited {
     color: black;
 }
 
 /* mouse over link */
-header:hover {
+a:hover {
     color: white;
 }
 
 /* selected link */
-header:active {
+a:active {
     color: blue;
 }
 
 /* header */
-
 header {
   font-family: 'Roboto';
   font-weight: bold;
@@ -121,4 +120,3 @@ h1 {
 .works {
   font-style: italic;
 }
-

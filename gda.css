@@ -59,11 +59,32 @@ h1 { font-size: 3.6rem; }
 h2 { font-size: 2.4rem; }
 p { font-size: 1.6rem; }
 
+body { font-family: 'Roboto'; sans-serif; }
 
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
 
 /* header */
 header {
   font-family: 'Roboto';
+  font-weight: bold;
   font-size: 24px;
   margin-left: 2%;
   margin-top: 2%;
@@ -72,8 +93,8 @@ h1 {
   margin-left: 8%;
   margin-top: 2%;
   font-size: 50px;
+  font-weight: medium;
 }
-
 
 /* content */
 .container {
@@ -84,7 +105,6 @@ h1 {
 }
 .intro {
   margin-bottom: 25px;
-  font-family: 'Roboto';
 }
 .boxes {
   
