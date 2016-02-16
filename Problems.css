@@ -61,25 +61,7 @@ p { font-size: 1.6rem; }
 
 body { font-family: 'Roboto'; sans-serif; }
 
-/* unvisited link */
-a:link {
-    color: black;
-}
 
-/* visited link */
-a:visited {
-    color: black;
-}
-
-/* mouse over link */
-a:hover {
-    color: white;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
 
 /* header */
 header {
