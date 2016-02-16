@@ -65,6 +65,8 @@
     <a href="gda.html"><p>Gallerie dell'Accademia</p></a>
   </div>
 
+  <div><a class="btn btn--alt" data-btn-alt="New & Shiny shizzle">Old boring stuff</a></div>
+
 </div>
   </div>
 
@@ -145,9 +147,20 @@ a:active {
   font-weight: bold;
 }
 
+.btn--alt:hover {
+    font-size: 1;
+}
+
+.btn--alt:hover:after {
+    content: attr(COMING SOON);
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+
 
 .box:hover{
   animation: spin 0s linear infinite;
+
 }
 .box {
   position: fixed;
