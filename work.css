@@ -106,8 +106,8 @@ margin-top: 2%;
 }
 
 .box:hover{
-  animation: spin 5s linear infinite;
-  background-image: "Zomer-Posters3.jpg";
+  animation: spin 0s linear infinite;
+
 
 }
 
