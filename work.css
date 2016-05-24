@@ -90,12 +90,14 @@ header {
   margin-left: 2%;
   margin-top: 2%;
   color: white;
+  background-color: black;
 }
 h1 {
   margin-left: 8%;
   margin-top: 2%;
   font-size: 50px;
   font-weight: medium;
+  background-color: black;
 }
 
 /* content */
