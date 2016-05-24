@@ -56,7 +56,7 @@ q:before, q:after {
 body { font-family: sans-serif; }
 
    CSS selector {
-  font-family: 'Roboto';
+  font-family: 'Roboto:500';
   font-weight: bold;
 }
     /* unvisited link */
@@ -89,7 +89,7 @@ a:active {
 /* header */
 header {
   margin-bottom: 100px;
-   font-family: 'Roboto';
+   font-family: 'Roboto:500';
    font-weight: bold;
   font-size: 24px;
   margin-left: 2%;
@@ -127,7 +127,7 @@ margin-top: 2%;
   border: 10px solid black;
   text-align: center;
   padding-top: 2%;
-  font-family: 'Roboto';
+  font-family: 'Roboto:500';
      font-weight: bold;
 
   animation: spin 5s linear infinite;
