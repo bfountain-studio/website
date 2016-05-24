@@ -42,7 +42,10 @@ q:before, q:after {
   content: '';
   content: none;
 }
-
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 
 
@@ -51,15 +54,14 @@ q:before, q:after {
 .clearfix { overflow: auto; }
 
 /* typography */
+html { font-size: 10px; }
+h1 { font-size: 3.6rem; }
+h2 { font-size: 2.4rem; }
+p { font-size: 1.6rem; }
 
+body { font-family: 'Roboto'; sans-serif; }
 
-body { font-family: sans-serif; }
-
-   CSS selector {
-  font-family: 'Roboto:500';
-  font-weight: bold;
-}
-    /* unvisited link */
+/* unvisited link */
 a:link {
     color: black;
 }
@@ -79,30 +81,30 @@ a:active {
     color: blue;
 }
 
-    
-
-
-
-
-
-
 /* header */
 header {
-  margin-bottom: 100px;
-   font-family: 'Roboto:500';
-   font-weight: bold;
+  font-family: 'Roboto';
+  font-weight: bold;
   font-size: 24px;
   margin-left: 2%;
-margin-top: 2%;
-  
+  margin-top: 2%;
+}
+h1 {
+  margin-left: 8%;
+  margin-top: 2%;
+  font-size: 50px;
+  font-weight: medium;
 }
 
 /* content */
 .container {
   width: 95%;
-  max-width: 1000px;
+  max-width: 90%;
   margin: 0 auto;
  
+}
+.intro {
+  margin-bottom: 25px;
 }
 
 .boxes {
