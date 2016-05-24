@@ -56,7 +56,8 @@ q:before, q:after {
 body { font-family: sans-serif; }
 
    CSS selector {
-  font-family: 'Roboto', ;
+  font-family: 'Roboto';
+  font-weight: bold;
 }
     /* unvisited link */
 a:link {
