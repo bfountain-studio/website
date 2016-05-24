@@ -127,6 +127,7 @@ margin-top: 2%;
   text-align: center;
   padding-top: 2%;
   font-family: 'Roboto';
+     font-weight: bold;
 
   animation: spin 5s linear infinite;
    
