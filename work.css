@@ -129,7 +129,7 @@ h1 {
   border: 10px solid black;
   text-align: center;
   padding-top: 2%;
-  font-family: 'Roboto:500';
+  font-family: 'Roboto';
      font-weight: bold;
 
   animation: spin 5s linear infinite;
